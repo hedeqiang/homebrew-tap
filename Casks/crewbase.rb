@@ -1,9 +1,9 @@
 # Homebrew cask for the Crewbase desktop app (macOS, universal).
-# The release workflow fills in 0.9.21 and 025ee29c0bf6a4c3b57489cb9e236983e86c13466de8af7bc4ec9e3624e90231 and pushes the result
+# The release workflow fills in 0.9.22 and 8d62dc5a192d1d3450916c1cb4b21fdd688efa554638cd3d1d7ab1ee80b22b01 and pushes the result
 # to the hedeqiang/homebrew-tap repository as Casks/crewbase.rb.
 cask "crewbase" do
-  version "0.9.21"
-  sha256 "025ee29c0bf6a4c3b57489cb9e236983e86c13466de8af7bc4ec9e3624e90231"
+  version "0.9.22"
+  sha256 "8d62dc5a192d1d3450916c1cb4b21fdd688efa554638cd3d1d7ab1ee80b22b01"
 
   url "https://github.com/hedeqiang/crewbase/releases/download/v#{version}/crewbase-#{version}.dmg"
   name "Crewbase"
